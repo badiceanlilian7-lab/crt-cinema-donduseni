@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-  baseURL: 'https://crt-cinema-donduseni.onrender.com/api',
+  baseURL: '/api',
   headers: {
     'Content-Type': 'application/json'
   }
