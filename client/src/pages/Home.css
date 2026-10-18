@@ -156,6 +156,23 @@
   cursor: not-allowed;
 }
 
+.home-footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.admin-link {
+  color: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: color 0.3s ease;
+}
+
+.admin-link:hover {
+  color: rgba(233, 69, 96, 0.5);
+}
+
 @media (max-width: 768px) {
   .movies-grid {
     grid-template-columns: 1fr;

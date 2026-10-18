@@ -106,6 +106,10 @@ function Home() {
           ))
         )}
       </div>
+
+      <footer className="home-footer">
+        <Link to="/admin" className="admin-link">Admin</Link>
+      </footer>
     </div>
   )
 }
