@@ -2,9 +2,9 @@
   "name": "crt-cinema-donduseni",
   "version": "1.0.0",
   "description": "CRT Cinema Donduseni - Movie Reservation System",
-  "main": "server/server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "node index.js",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "server": "nodemon server/server.js",
     "client": "cd client && npm run dev",
