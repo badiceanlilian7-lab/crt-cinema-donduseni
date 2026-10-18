@@ -2,7 +2,7 @@ services:
   - type: web
     name: crt-cinema-backend
     env: node
-    buildCommand: npm install && cd client && npm install && npm run build
+    buildCommand: npm install
     startCommand: node server/server.js
     envVars:
       - key: PORT
